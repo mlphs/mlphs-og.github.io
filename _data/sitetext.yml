@@ -21,7 +21,7 @@ en: &DEFAULT_EN
     text: "AI is everywhere. Yet, AI education is not widely accessible, especially at the high school level. To fill this gap, we created the Machine Learning Club."
     section: services
     list:
-      - title: "Increase AI Education Accessibility"
+      - title: "Make AI Education Accessible"
         desc: "Introduce artificial intelligence and machine learning concepts at the high school level."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "Turn Theory into Practice"
