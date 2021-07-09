@@ -31,10 +31,10 @@ en: &DEFAULT_EN
         desc: "Actively discuss ethical AI and ML."
         icon: fas fa-comments
 
-  about:
+  timeline:
     title: "Lessons"
     text: "Coming soon."
-    section: about
+    section: timeline
 
   team:
     title: "TEAM"
