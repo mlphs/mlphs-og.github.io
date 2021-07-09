@@ -13,10 +13,10 @@ en: &DEFAULT_EN
   nav:
     - title: "Our Mission"
       section: services
-    - title: "Team"
-      section: team
     - title: "Lessons"
       section: about
+    - title: "Team"
+      section: team
 
 en-US:
   <<: *DEFAULT_EN
