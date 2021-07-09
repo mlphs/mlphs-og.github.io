@@ -18,16 +18,16 @@ en: &DEFAULT_EN
 
   services:
     title: "Our Mission"
-    text: "Lorem ipsum"
+    text: "AI is everywhere. Yet, AI education is not widely accessible, especially at the high school level. To fill this gap, we created the Machine Learning Club."
     section: services
     list:
-      - title: "Learn AI & ML"
+      - title: "Bring AI Education to High School"
         desc: "Introduce artificial intelligence and machine learning concepts at the high school level."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Apply AI & ML Concepts"
-        desc: "BRdige the gap between theory and practice."
+      - title: "Turn Theory into Practice"
+        desc: "Brdige the gap between theory and practice."
         icon: fas fa-laptop
-      - title: "Ethical AI"
+      - title: "Discuss Ethical AI"
         desc: "Actively discuss ethical AI and ML."
         icon: fab fa-markdown
 
