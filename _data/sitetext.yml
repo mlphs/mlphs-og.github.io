@@ -42,8 +42,8 @@ en: &DEFAULT_EN
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Viraj Singh"
+        role: "Founder & President, Head of Technical Content"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -52,18 +52,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Maya"
+        role: "Head of Ethics"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -72,7 +62,36 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-
+      - name: "Shyam"
+        role: "Head of Marketing"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Sofia"
+        role: "Head of Outreach"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Graciela Elia"
+        role: "Advisor"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
   contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
