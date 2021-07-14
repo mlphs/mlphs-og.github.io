@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Our Mission"
-    text: "AI education is not widely accessible at the high school level. To fill this gap, we created the Machine Learning Club."
+    text: "Artificial Intelligence education is not widely accessible at the high school level. To fill this gap, we created the Machine Learning Club."
     section: services
     list:
       - title: "Make AI Education Accessible"
