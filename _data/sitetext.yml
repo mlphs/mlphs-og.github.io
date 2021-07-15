@@ -21,7 +21,7 @@ en: &DEFAULT_EN
     text: "An AI education is not accessible at the high school level. To fill this gap, we created the Artificial Intelligence & Machine Learning Club."
     section: services
     list:
-      - title: "Make AI Education Accessible"
+      - title: "Accessible AI Education"
         desc: "Introduce artificial intelligence and machine learning concepts at the high school level."
         icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
       - title: "Turn Theory into Practice"
