@@ -35,6 +35,7 @@ en: &DEFAULT_EN
     title: "Lessons"
     text: "Coming soon."
     section: lessons
+    closebutton: "Close Lesson"
 
   team:
     title: "TEAM"
