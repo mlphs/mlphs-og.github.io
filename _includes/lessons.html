@@ -1,38 +1,31 @@
 <!-- Lessons -->
-  <section class="page-section" id="{{ site.data.sitetext[site.locale].lessons.section | default: "lessons" }}">
-    <div class="container">
-	
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].lessons.title | default: "Lessons" }}</h2>
-          {% if site.data.sitetext[site.locale].lessons.text %}
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].lessons.text }}</h3>
-		  {% endif %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].lessons.section | default: "lessons" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].lessons.title | markdownify | default: "lessons" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].lessons.text | markdownify }}</h3>
+      </div>
+    </div>
+    <div class="row">
+	{% for project in site.lessons %}
+      <div class="col-md-4 col-sm-6 lessons-item">
+        <a class="lessons-link" data-toggle="modal" href="#p{{ forloop.index }}">
+          <div class="lessons-hover">
+            <div class="lessons-hover-content">
+              <i class="{{ site.data.style.lessons-icon | default: "fas fa-plus fa-3x" }}"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+        </a>
+        <div class="lessons-caption">
+          <h4>{{ project.caption.title }}</h4>
+          <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
       </div>
-	    
-	<ul>
-	  {% for post in site.data.sitetext[site.locale].lessons.list %}
-	    <li>
-	      <a href="{{ post.url }}">{{ post.title }}</a>
-	    </li>
-	  {% endfor %}
-	</ul>
-	  
-<!--       <div class="row text-center">
-	  {% for lessons in site.data.sitetext[site.locale].lessons.list %}
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ lessons.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="lessons-heading">{{ lessons.title | markdownify }}</h4>
-          {% if lessons.desc %}<div class="text-muted">{{ lessons.desc | markdownify }}</div>{% endif %}
-        </div>
-	  {% endfor %}
-      </div> -->
-	   
-	  
+	{% endfor %}
     </div>
-  </section>
+  </div>
+</section>
+{% include modals.html %}
 <!-- End Lessons -->
