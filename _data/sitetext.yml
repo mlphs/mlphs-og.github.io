@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Our Mission"
-    text: "Artificial Intelligence education is not widely accessible at the high school level. To fill this gap, we created the Artificial Intelligence & Machine Learning Club."
+    text: "An AI education is not accessible at the high school level. To fill this gap, we created the Artificial Intelligence & Machine Learning Club."
     section: services
     list:
       - title: "Make AI Education Accessible"
@@ -51,7 +51,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Maya"
+      - name: "Maya Lerman"
         role: "Head of Ethics"
         image: assets/img/team/500x500.jpg
         social:
@@ -61,7 +61,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Shyam"
+      - name: "Shyam Parikh"
         role: "Head of Marketing"
         image: assets/img/team/500x500.jpg
         social:
@@ -71,7 +71,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Sofia"
+      - name: "Sofia Prenner"
         role: "Head of Outreach"
         image: assets/img/team/500x500.jpg
         social:
