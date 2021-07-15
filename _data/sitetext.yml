@@ -36,6 +36,16 @@ en: &DEFAULT_EN
     text: "Coming soon."
     section: lessons
     closebutton: "Close Lesson"
+    
+  ethics:
+    title: "Ethics"
+    text: "Coming soon."
+    section: ethics
+ 
+ outreach:
+    title: "Outreach"
+    text: "Coming soon."
+    section: outreach
 
   team:
     title: "TEAM"
