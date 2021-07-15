@@ -17,6 +17,10 @@ en: &DEFAULT_EN
       section: team
     - title: "Lessons"
       section: lessons
+    - title: "Ethics"
+      section: ethics
+    - title: "Outreach"
+      section: outreach
 
 en-US:
   <<: *DEFAULT_EN
