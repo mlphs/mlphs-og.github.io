@@ -1,7 +1,21 @@
 ---
-layout: post
-title: "Some articles are just so short that we have to make the footer stick"
-categories: misc
----
+caption: #what displays in the portfolio grid:
+  title: Example
+  subtitle: subtitle
+  thumbnail: https://place-hold.it/400x300
+  
+#what displays when the item is clicked:
+title: Title
+subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+alt: image alt text
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
+Use this area to describe your project. **Markdown** supported.
+
+optional info list (delete if not using):
+
+{:.list-inline} 
+- Date: 
+- Client: 
+- Category: 
