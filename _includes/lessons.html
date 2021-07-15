@@ -12,7 +12,7 @@
       </div>
 	    
 	<ul>
-	  {% for post in site.posts %}
+	  {% for post in site.data.sitetext[site.locale].lessons.list %}
 	    <li>
 	      <a href="{{ post.url }}">{{ post.title }}</a>
 	    </li>
